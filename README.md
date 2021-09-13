@@ -20,5 +20,3 @@ Portfólio do desenvolvedor
 - :checkered_flag: release
 
 #### [Template de referencia](https://github.com/bedimcode/responsive-portfolio-website-Alexa)
-#### <a href="https://github.com/bedimcode/responsive-portfolio-website-Alexa" target="_blank">Template de referência</a>
-
