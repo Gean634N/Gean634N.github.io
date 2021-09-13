@@ -6,5 +6,5 @@ Portfólio do desenvolvedor
 
 - :package: nova funcionalidade
 - :up: atualizações
-- :beetle: correção de bug
+- :bug: correção de bug
 - :checkered_flag: release
