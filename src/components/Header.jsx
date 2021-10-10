@@ -3,6 +3,33 @@ import * as Unicons from '@iconscout/react-unicons';
 import '../css/header.css';
 
 const Header = () => {
+
+  /*==================== MENU SHOW Y HIDDEN ====================*/
+  const navMenu = document.getElementById('nav-menu'),
+        navToggle = document.getElementById('nav-toggle'),
+        navClose = document.getElementById('nav-close'),
+        showMenu = () => navMenu.classList.add('show-menu'),
+        hideMenu = () => navMenu.classList.remove('show-menu');
+
+
+  /*===== MENU SHOW =====*/
+  /* Validate if constant exists */
+  if(navToggle){
+    navToggle.addEventListener('click', showMenu)
+  }
+
+  /*===== MENU HIDDEN =====*/
+  /* Validate if constant exists */
+  if(navClose){
+    navClose.addEventListener('click', hideMenu)
+  }
+
+  /*==================== REMOVE MOBILE MENU ====================*/
+  const navLink = document.querySelectorAll('.nav__link')
+
+  // when we click any component  the menu is hiden.
+  navLink.forEach(link => link.addEventListener('click', hideMenu))
+
   return (
     /* ==================== HEADER ==================== */
     <header className="header" id="header">
@@ -43,7 +70,7 @@ const Header = () => {
         </div>
 
         <div className="nav__btns">
-          <Unicons.UilMoon className="change-theme" id="theme-button" />
+          {/* <Unicons.UilMoon className="change-theme" id="theme-button" /> */}
           <div className="nav__toggle" id="nav-toggle">
             <Unicons.UilApps />
           </div>
