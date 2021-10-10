@@ -1,6 +1,6 @@
 # portfolio
 
-Portfólio do desenvolvedor
+Portfólio do desenvolvedor em React JS
 
 ## Portfolio Responsivo
 - Header
@@ -33,6 +33,3 @@ Portfólio do desenvolvedor
 - :up: atualizações
 - :bug: correção de bug
 - :checkered_flag: release
-
-#### [Template de referencia](https://github.com/bedimcode/responsive-portfolio-website-Alexa)
-#### [Tutorial Youtube da Bedimcode](https://www.youtube.com/watch?v=27JtRAI3QO8)
