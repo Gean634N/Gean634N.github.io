@@ -20,12 +20,14 @@ const App = () => {
     <>
       <Loader disapear={disapear} />
       <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Contact />
-      <Budget />
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Contact />
+        <Budget />
+      </main>
       <Footer />
     </>
   )

@@ -29,6 +29,7 @@ const Home = () => {
                 href="https://www.instagram.com/gean634n/"
                 className="home__social-icon"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Unicons.UilInstagram />
               </a>
