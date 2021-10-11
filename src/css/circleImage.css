@@ -1,0 +1,13 @@
+@import "commun.css";
+
+.img__content{
+  width: 180px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img{
+  max-width: 100%;
+  display: block;
+}
