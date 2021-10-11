@@ -292,6 +292,10 @@ img{
 }
 
 /*==================== HOME ====================*/
+.home{
+    background-color: #272727;
+}
+
 .home__container{
     gap: 1rem;
 }
@@ -557,6 +561,18 @@ img{
 }
 
 /*==================== QUALIFICATION ====================*/
+.qualification{
+    background-color: #272727;
+}
+
+.qualification .section__title{
+    color: #eee;
+}
+
+.qualification .qualification__title{
+    color: #eee;
+}
+
 .qualification__tabs{
     display: flex;
     justify-content: space-evenly;
@@ -570,7 +586,7 @@ img{
 }
 
 .qualification__button:hover{
-    color: var(--first-color);
+    color: var(--first-color-lighter);
 }
 
 .qualification__icon{
@@ -795,7 +811,7 @@ img{
 }
 
 .project__bg{
-    background-color: var(--first-color-second);
+    background-color: #272727;
     padding-top: 3rem;
 }
 
@@ -808,7 +824,10 @@ img{
     margin-bottom: var(--mb-1-5);
 }
 
-.project__title,
+.project__title{
+    color: var(--first-color);
+}
+
 .project__description{
     color: #FFF;
 }
@@ -917,7 +936,7 @@ img{
 }
 
 .footer__bg{
-    background-color: var(--first-color-second);
+    background-color: #272727;
 }
 
 .footer__title{
@@ -956,7 +975,7 @@ img{
 .footer__subtitle,
 .footer__link,
 .footer__social{
-    color: #eee;
+    color: var(--first-color);
 }
 
 /*========== SCROLL UP ==========*/
