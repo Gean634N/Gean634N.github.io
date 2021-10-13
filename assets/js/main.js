@@ -1,3 +1,10 @@
+/*==================== LOADER ANIMATION ====================*/
+const loader = document.querySelector('.overlay');
+
+window.addEventListener('load', () => {
+  setTimeout(() => loader.classList.add('disapear') , 200);
+});
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
