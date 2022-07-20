@@ -30,7 +30,7 @@
           <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link">
-                <i class="uil uil-estate nav__icon"></i> Home
+                <i class="uil uil-estate nav__icon"></i> Inicio
               </a>
             </li>
             <li class="nav__item">
@@ -40,15 +40,15 @@
             </li>
             <li class="nav__item">
               <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i> Skills
+                <i class="uil uil-file-alt nav__icon"></i> Abilidades
               </a>
             </li>
 
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#qualifications" class="nav__link">
                   <i class="uil uil-briefcase-alt nav__icon"></i> Services
               </a>
-          </li>
+            </li> -->
 
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
@@ -78,12 +78,13 @@
 
     <!--==================== MAIN ====================-->
     <main class="main">
+
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
         <div class="home__container container grid">
           <div class="home__content grid">
             <div class="home__social">
-              <!-- linkedin -->
+              <!-- ======== linkedin ======== -->
               <a
                 href="https://www.linkedin.com/in/gean634n/"
                 class="home__social-icon"
@@ -92,7 +93,7 @@
                 <!-- <i class="uil uil-linkedin"></i> -->
               </a>
 
-              <!-- Instagran -->
+              <!-- ======== Instagran ======== -->
               <!-- <a
                 href="https://www.instagram.com/gean634n/"
                 class="home__social-icon"
@@ -101,9 +102,9 @@
                 <i class="uil uil-instagram"></i>
               </a> -->
 
-              <!-- GitHub -->
+              <!-- ======== GitHub ======== -->
               <a
-                href="https://github.com/Gean634N"
+                href="https://github.com/gean634n"
                 class="home__social-icon"
                 target="_blank"    
               >
@@ -112,33 +113,34 @@
               </a>
             </div>
 
-              <div class="home__img">
-                <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <mask id="mask0" mask-type="alpha">
-                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                  </mask>
-                  <g mask="url(#mask0)">
-                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                    <image class="home__blob-img" y='-35' href="assets/img/perfil-gean.png"/>
-                    <!-- site utilizado para remover o BG da foto: https://www.remove.bg/pt-br/upload -->
-                  </g>
-                </svg>
-              </div>
+            <!-- ======== Foto and blob ======== -->
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                  <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                  <image class="home__blob-img" y='-35' href="assets/img/perfil-gean.png"/>
+                  <!-- site utilizado para remover o BG da foto: https://www.remove.bg/pt-br/upload -->
+                </g>
+              </svg>
+            </div>
 
-              <div class="home__data">
-                <h1 class="home__title">Olá, Meu nome é Gean</h1>
-                <h3 class="home__subtitle">Desenvolvedor Frontend</h3>
-                <p class="home__description">Sempre se aperfeicoando para criar projetos de qualidade cada vez mais elevada.</p>
-                <a href="#contact" class="button button--flex button__home">
-                  Contacte-me<i class="uil uil-message button__icon"></i>
-                </a>
-              </div>
+            <div class="home__data">
+              <h1 class="home__title">Olá, Meu nome é Gean</h1>
+              <h3 class="home__subtitle">Desenvolvedor Frontend</h3>
+              <p class="home__description">Sempre se aperfeicoando para criar projetos de qualidade cada vez mais elevada.</p>
+              <a href="#contact" class="button button--flex button__home">
+                Contacte-me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
           </div>
 
           <div class="home__scroll">
@@ -160,30 +162,31 @@
           <img src="assets/img/ceu.jpg" alt="minha foto a frente de um castelo" class="about__img">
 
           <div class="about__data">
-            <p class="about__description">Pessoa Desenvolvedora e em constante desenvolvimento, amo tecnologia, trabalhar em equipe e aprender. Estou sempre disposto a um novo desafio.</p>
-              
+            <p class="about__description">Pessoa Desenvolvedora e em constante desenvolvimento, amo tecnologia, trabalhar em equipe e aprender. Estou sempre disposto a um novo desafio</p>
+
             <div class="about__info">
               <div>
-                <span class="about__info-title">05+</span>
+                <span class="about__info-title">14+</span>
                 <span class="about__info-name">Meses <br> estudando</span>
               </div>
 
               <div>
-                <span class="about__info-title">05+</span>
+                <span class="about__info-title">10+</span>
                 <span class="about__info-name">Tecnologias <br> aprendidas</span>
               </div>
 
               <div>
-                <span class="about__info-title">15+</span>
+                <span class="about__info-title">30+</span>
                 <span class="about__info-name">Projetos <br> concluidos</span>
               </div>
             </div>
 
             <div class="about__buttons">
-              <a download="" href="https://github.com/Gean634N" class="button button--flex">
+              <a download="" href="./assets/docs/Curriculo.pdf" class="button button--flex" download="teste_visualdicas">
                 Download CV<i class="uil uil-download-alt button__icon"></i>
               </a>
             </div>
+
           </div>
         </div>
       </section>
@@ -194,8 +197,7 @@
         <span class="section__subtitle">Tecnologias com as quais trabalho</span>
         
         <div class="skills__container container grid">
-          <div>
-            <!--==================== SKILL 1 ====================-->
+          <div>  <!--==================== SKILL 1 - Frontend ====================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
                 <i class="uil uil-brackets-curly skills__icon"></i>
@@ -211,28 +213,40 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">HTML</h3>
+                    <h3 class="skills__name">
+                      <i class="uil uil-html5-alt skills__icon skills__icon__small"></i>
+                      HTML
+                    </h3>
                   </div>
                   <p>Utilizada na construção de páginas na Web, bem como na estruturação semantica de todo o conteudo das paginas.</p>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">CSS</h3>
+                    <h3 class="skills__name">
+                      <i class="uil uil-css3-simple skills__icon skills__icon__small">
+                      </i>CSS
+                    </h3>
                   </div>
                   <p>Utilizada para definir a apresentação (aparência) às paginas Web.</p>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">JavaScript</h3>
+                    <h3 class="skills__name">
+                      <i class="uil uil-java-script skills__icon skills__icon__small"></i>
+                      JavaScript
+                    </h3>
                   </div>
                   <p>linguagem de programação que permite implementar lógica e itens complexos em páginas web</p>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">React</h3>
+                    <h3 class="skills__name">
+                      <i class="uil uil-react skills__icon skills__icon__small"></i>
+                      React
+                    </h3>
                   </div>
                   <p>Biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web</p>
                 </div>
@@ -240,9 +254,7 @@
             </div>
           </div>
 
-          <div>
-
-            <!--==================== SKILL 2 ====================-->
+          <div> <!--==================== SKILL 2 - Backend ====================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
                 <i class="uil uil-server-network skills__icon"></i>
@@ -255,35 +267,55 @@
                 <i class="uil uil-angle-down skills__arrow"></i>
               </div>
               <div class="skills__list grid">
-                <div class="skills__bar">
+                <!-- <div class="skills__bar">
                   <span class="skills__percentage skills__python"></span>
+                </div> -->
+
+                <div class="skills_list grid">
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">
+                        <i class="uil uil-docker skills__icon skills__icon__small"></i>
+                        Docker
+                      </h3>
+                    </div>
+                    <p>O Docker permite que os aplicativos e seus ambientes sejam mantidos limpos e mínimos, isolando-os, o que concede mais controle e maior portabilidade.</p>
+                  </div>
+  
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">
+                        <i class="uil uil-database skills__icon skills__icon__small"></i>
+                        MySQL
+                      </h3>
+                    </div>
+                    <p>O MySQL é um sistema de gerenciamento de banco de dados. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.</p>
+                  </div>
+  
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">
+                        <i class="uil uil-java-script skills__icon skills__icon__small"></i>
+                        Node JS
+                      </h3>
+                    </div>
+                    <p>Node.js é uma tecnologia usada para executar código JavaScript fora do navegador. Com ele podemos construir aplicações web em geral, desde web sites até APIs e microsserviços.</p>
+                  </div>
+  
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">
+                        <i class="uil uil-java-script skills__icon skills__icon__small"></i>
+                        TypeScript
+                      </h3>
+                    </div>
+                    <p>TypeScript é um superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando entre outras coisas tipagem estática.</p>
+                  </div>
                 </div>
+
+
               </div>
-
-              <!--
-              <div class="skills_list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Node JS</h3>
-                    <p></p>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Firebase</h3>
-                    <p></p>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              -->
+             
             </div>
           </div>
         </div>
@@ -375,21 +407,22 @@
         
         <div class="portfolio__container container swiper">
           <div class="swiper-wrapper">
-              <!--==================== PORTFOLIO 1 ====================-->
+
+              <!--==================== PROJECT 1 ====================-->
               <div class="portfolio__content grid swiper-slide">
                 <img src="assets/img/pixelArt.jpg" alt="" class="portfolio__img">
 
                 <div class="portifolio__data">
                   <h3 class="portfolio__title">PixelArt</h3>
                   <p class="portfolio__description">Projeto que teve como objetivo desenvolver uma tela de desenho simples, que tem os pixelarts como inspiração</p>
-                  <a href="https://github.com/tryber/sd-013-a-project-pixels-art/tree/Gean634N-project-pixels-art" class="button button--flex button--small portfolio__button">
+                  <a href="https://github.com/tryber/sd-013-a-project-pixels-art/tree/gean634n-project-pixels-art" class="button button--flex button--small portfolio__button">
                     Demo
                     <i class="uil uil-arrow-right button__icon"></i>
                   </a>
                 </div>
               </div>
 
-               <!--==================== PORTFOLIO 2 ====================-->
+               <!--==================== PROJECT 2 ====================-->
                <div class="portfolio__content grid swiper-slide">
                 <img src="assets/img/todolist.jpg" alt="" class="portfolio__img">
 
@@ -403,19 +436,20 @@
                 </div>
               </div>
 
-               <!--==================== PORTFOLIO 3 ====================-->
+               <!--==================== PROJECT 3 ====================-->
                <div class="portfolio__content grid swiper-slide">
                 <img src="assets/img/trybewarts.jpg" alt="" class="portfolio__img">
 
                 <div class="portifolio__data">
                   <h3 class="portfolio__title">TrybeWarts</h3>
                   <p class="portfolio__description">Formulario de inscrição na ficticia escola de magia TrybeWarts, apesar dos alunos da trybe fazerem sites magicos, isso tem mais a ver com conhecimento do que com magia.</p>
-                  <a href="https://github.com/tryber/sd-013-a-project-trybewarts/tree/Gean634N-trybewarts-project" class="button button--flex button--small portfolio__button">
+                  <a href="https://github.com/tryber/sd-013-a-project-trybewarts/tree/gean634n-trybewarts-project" class="button button--flex button--small portfolio__button">
                     Demo
                     <i class="uil uil-arrow-right button__icon"></i>
                   </a>
                 </div>
               </div>
+
             </div>
 
             <!-- Swiper font: https://swiperjs.com/ -->
@@ -471,7 +505,7 @@
 
               <div>
                 <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle">gean.a.l.c@gmail.com</span>
+                <span class="contact__subtitle">gean634n@gmail.com</span>
               </div>
             </div>
 
@@ -483,9 +517,46 @@
                 <span class="contact__subtitle">Campo Grande, MS, Brasil</span>
               </div>
             </div>
+
+            <!-- <form action="https://formsubmit.co/gean634n@gmail.com" method="POST" class="contact__form grid">
+              <input type="hidden" name="_next" value="https://gean634n.github.io/#contact">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="box">
+              <div class="contact__inputs grid">
+                  <div class="contact__content">
+                      <label for="name" class="contact__label">Nome</label>
+                      <input type="text" id="name" class="contact__input" name="name" required>
+                  </div>
+
+                  <div class="contact__content">
+                      <label for="email" class="contact__label">Email</label>
+                      <input type="email" id="email" class="contact__input" name="email" required>
+                      <input type="hidden" name="_autoresponse" value="Mensagem recebida, obrigado pelo contato, responderei em breve.">
+                  </div>
+              </div>
+
+              <div class="contact__content">
+                  <label for="project-contact" class="contact__label">Assunto</label>
+                  <input type="text" id="project-contact" class="contact__input" name="subject" required>
+              </div>
+
+              <div class="contact__content">
+                  <label for="message-contact" class="contact__label">Mensagem</label>
+                  <textarea cols="0" rows="7" id="message-contact" class="contact__input" name="message" required></textarea>
+              </div>
+
+              <div>
+                  <button type="submit" class="reset button button--flex">
+                    Enviar Mensagem
+                  <i class="uil uil-message button__icon"></i>
+                  </button>
+              </div>
+          </form> -->
+
           </div>
         </div>
       </section>
+
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -494,7 +565,7 @@
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Gean</h1>
-            <span class="footer__subtitle">Frontend Developer</span>
+            <span class="footer__subtitle">FullStack Developer</span>
           </div>
 
           <ul class="footer__links">
@@ -523,7 +594,7 @@
 
               <!-- GitHub -->
               <a
-                href="https://github.com/Gean634N"
+                href="https://github.com/gean634n"
                 class="footer__social"
                 target="_blank"    
               >
@@ -532,14 +603,15 @@
           </div>
         </div>
 
-        <p class="footer__copy">&#169; Gean. All rights reserved </p>
+        <!-- <p class="footer__copy">&#169; Gean. All rights reserved </p> -->
+        <p class="footer__copy">&#169; Gean. Todos os direitos reservados </p>
       </div>
     </footer>
       
     <!--==================== SCROLL TOP ====================-->
-      <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
-      </a>
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
